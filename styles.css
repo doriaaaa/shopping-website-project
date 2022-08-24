@@ -1,0 +1,63 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.breadcrumb {
+  background-color: blanchedalmond;
+  margin-bottom: 0rem;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: #8853a3 !important;
+}
+
+.bg-light {
+  background-color: blanchedalmond !important;
+}
+
+.py-4 {
+  background-color: blanchedalmond;
+}
+
+.badge > .bg-dark > .text-white, .position-absolute {
+  top: 0.5rem; 
+  right: 0.5rem;
+}
+
+.form-control > .text-center, .me-3 {
+  max-width: 3rem;
+}
+
+.col-4 {
+  overflow-x: scroll;
+}
+
+.hidden {
+  display:none;
+}
+
+.col-sm-2 {
+  width: 140px;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.forgot-password-link {
+  font-size: 14px;
+  color: #919aa3;
+  margin-bottom: 12px;
+}
